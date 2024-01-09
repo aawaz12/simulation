@@ -16,7 +16,7 @@ max_num_cells = int((700/(2*cell_radius))*(700/(2*cell_radius))*100)
 max_num_cells=1000
 
 eta = 0.03 #Viscosity of medium
-k = 1.9  #Spring constant ##1.9
+k = 500 #Spring constant ##1.9
 growth_rate = 2
 grid_width=cell_radius
 grid_height=cell_radius
